@@ -2,6 +2,9 @@ package com.mariciucioan.PALab2compulsory;
 
 import java.util.ArrayList;
 
+/**
+ * Author: Mariciuc Ioan
+ */
 public class Main {
 
     public static void main(String[] args) {

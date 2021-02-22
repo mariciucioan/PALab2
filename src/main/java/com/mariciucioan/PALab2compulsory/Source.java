@@ -1,5 +1,8 @@
 package com.mariciucioan.PALab2compulsory;
 
+/**
+ * Author: Mariciuc Ioan
+ */
 abstract class Source {
 
     /*
@@ -22,12 +25,14 @@ abstract class Source {
     private String name;
     private int supply;
 
+
     public Source(String name, int supply) {
         this.name = name;
         this.supply = supply;
     }
 
     abstract String getType();
+
 
     public String getName() {
         return name;

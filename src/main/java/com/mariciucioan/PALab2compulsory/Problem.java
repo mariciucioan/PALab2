@@ -2,6 +2,9 @@ package com.mariciucioan.PALab2compulsory;
 
 import java.util.ArrayList;
 
+/**
+ * Author: Mariciuc Ioan
+ */
 public class Problem {
     private final int[][] costs;
     private ArrayList<Source> sources;
@@ -47,7 +50,14 @@ public class Problem {
         this.destinations = destinations;
     }
 
-    public StringBuilder SourceToDestination(Source source, int id) {
+
+    /**
+     * Handle the operations between source and destination
+     * @param source the row in the costs matrix
+     * @param id the column id
+     * @return StringBuilder
+     */
+    public StringBuilder sourceToDestination(Source source, int id) {
         StringBuilder sb = new StringBuilder();
         Destination destination = destinations.get(id);
 
@@ -79,6 +89,10 @@ public class Problem {
         return sb;
     }
 
+    /**
+     *
+     * @return String of the problem's details
+     */
     @Override
     public String toString() {
         StringBuilder result= new StringBuilder();

@@ -1,5 +1,8 @@
 package com.mariciucioan.PALab2compulsory;
 
+/**
+ * Author: Mariciuc Ioan
+ */
 public class Warehouse extends Source {
     static final String TYPE="Warehouse";
 

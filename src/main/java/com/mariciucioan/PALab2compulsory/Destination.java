@@ -1,5 +1,8 @@
 package com.mariciucioan.PALab2compulsory;
 
+/**
+ * Author: Mariciuc Ioan
+ */
 public class Destination {
     private String name;
     private int demand;

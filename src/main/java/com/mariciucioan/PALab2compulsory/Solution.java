@@ -1,5 +1,8 @@
 package com.mariciucioan.PALab2compulsory;
 
+/**
+ * Author: Mariciuc Ioan
+ */
 public class Solution {
     private final Problem problem;
 
@@ -7,6 +10,10 @@ public class Solution {
         this.problem = problem;
     }
 
+    /**
+     *
+     * @return String of solution
+     */
     @Override
     public String toString() {
         StringBuilder result = new StringBuilder("O solutie ar putea fi:\n\n");
@@ -26,7 +33,7 @@ public class Solution {
 
                 result.append(e.toString()).append(" -> ")
                         .append(problem.getDestinations().get(id).toString()).append(":  ")
-                        .append(problem.SourceToDestination(e, id)).append('\n');
+                        .append(problem.sourceToDestination(e, id)).append('\n');
             });
         }
 
@@ -36,6 +43,11 @@ public class Solution {
         return result.toString();
     }
 
+    /**
+     * Searches the index of the minimum cost
+     * @param source row in the costs matrix
+     * @return id of the minimum cost at the source row
+     */
     private int searchMinimumCostIndexInMatrix(Source source) {
         int min = 0;
         for(int i=0; i<problem.getCosts().length; i++) {
