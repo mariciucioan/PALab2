@@ -1,0 +1,14 @@
+com/mariciucioan/PALab2compulsory/Warehouse.java
+ com.mariciucioan.PALab2compulsory.Warehouse
+com/mariciucioan/PALab2compulsory/Main.java
+ com.mariciucioan.PALab2compulsory.Main
+com/mariciucioan/PALab2compulsory/Source.java
+ com.mariciucioan.PALab2compulsory.Source
+com/mariciucioan/PALab2compulsory/Solution.java
+ com.mariciucioan.PALab2compulsory.Solution
+com/mariciucioan/PALab2compulsory/Destination.java
+ com.mariciucioan.PALab2compulsory.Destination
+com/mariciucioan/PALab2compulsory/Factory.java
+ com.mariciucioan.PALab2compulsory.Factory
+com/mariciucioan/PALab2compulsory/Problem.java
+ com.mariciucioan.PALab2compulsory.Problem
