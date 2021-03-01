@@ -1,4 +1,4 @@
-package com.mariciucioan.PALab2compulsory;
+package com.mariciucioan.palab2compulsory.destinations;
 
 /**
  * Author: Mariciuc Ioan

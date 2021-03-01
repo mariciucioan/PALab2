@@ -1,4 +1,7 @@
-package com.mariciucioan.PALab2compulsory;
+package com.mariciucioan.palab2compulsory.problem;
+
+import com.mariciucioan.palab2compulsory.destinations.Destination;
+import com.mariciucioan.palab2compulsory.sources.Source;
 
 import java.util.ArrayList;
 
@@ -110,7 +113,7 @@ public class Problem {
 
         for (Source source : sources) {
             result.append(source.getName()).append(" (type: ")
-                    .append(source.getType()).append("): ").
+                    .append(source.getName()).append("): ").
                     append(source.getSupply()).append('\n');
         }
 

@@ -1,4 +1,4 @@
-package com.mariciucioan.PALab2compulsory;
+package com.mariciucioan.palab2compulsory.sources;
 
 /**
  * Author: Mariciuc Ioan
@@ -9,7 +9,6 @@ public class Warehouse extends Source {
     public Warehouse(String name, int supply) {
         super(name, supply);
     }
-
     public String getType() {
         return TYPE;
     }

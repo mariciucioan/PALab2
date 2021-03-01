@@ -1,4 +1,7 @@
-package com.mariciucioan.PALab2compulsory;
+package com.mariciucioan.palab2compulsory.problem;
+
+import com.mariciucioan.palab2compulsory.destinations.Destination;
+import com.mariciucioan.palab2compulsory.sources.Source;
 
 /**
  * Author: Mariciuc Ioan

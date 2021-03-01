@@ -1,4 +1,11 @@
-package com.mariciucioan.PALab2compulsory;
+package com.mariciucioan.palab2compulsory;
+
+import com.mariciucioan.palab2compulsory.destinations.Destination;
+import com.mariciucioan.palab2compulsory.problem.Problem;
+import com.mariciucioan.palab2compulsory.problem.Solution;
+import com.mariciucioan.palab2compulsory.sources.Factory;
+import com.mariciucioan.palab2compulsory.sources.Source;
+import com.mariciucioan.palab2compulsory.sources.Warehouse;
 
 import java.util.ArrayList;
 

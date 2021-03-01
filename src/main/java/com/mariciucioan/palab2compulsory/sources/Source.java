@@ -1,9 +1,9 @@
-package com.mariciucioan.PALab2compulsory;
+package com.mariciucioan.palab2compulsory.sources;
 
 /**
  * Author: Mariciuc Ioan
  */
-abstract class Source {
+public abstract class Source {
 
     /*
     public enum SourceType {
@@ -32,7 +32,6 @@ abstract class Source {
     }
 
     abstract String getType();
-
 
     public String getName() {
         return name;
