@@ -59,7 +59,7 @@ public abstract class Source {
         if (obj instanceof Source) {
             Source source = (Source) obj;
 
-            return this.getName().equals(source.getName());
+            return (this.getName().equals(source.getName()) && (this.supply == source.supply));
         }
 
         return false;

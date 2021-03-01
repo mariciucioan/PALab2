@@ -48,7 +48,7 @@ public class Destination {
         if (obj instanceof Destination) {
             Destination dest = (Destination) obj;
 
-            return this.getName().equals(dest.getName());
+            return (this.getName().equals(dest.getName()) && (this.demand == dest.demand));
         }
 
         return false;
